@@ -42,6 +42,7 @@
       padding: 0;
       font-family: "Public Sans","Arial",sans-serif;
       /* font-weight: 400; */
+      overflow: hidden;
   }
   main{
       flex-grow: 1;
@@ -122,19 +123,18 @@ header{
 .header-box__link:hover{
     opacity: 0.4;
 }
+section{
 
+}
 .hero{
-  overflow: hidden;
-    padding: 170px 0 400px 0;
-    background-color: #F2F2F2;
+  position: relative;
+  padding: 170px 0 170px 0;
+  background-color: #F2F2F2;
 }
 .hero-box{
 
-    position: relative;
-
 }
 .hero-box__left{
-    /* position: relative; */
     width: 447px;
     z-index: 2;
 }
@@ -153,21 +153,30 @@ header{
     letter-spacing: -0.28125px;
     color: #9597A5;
 }
+
 .hero-box__right{
-}
-.hero-box__right::after{
-   content: "";
     position: absolute;
-    top: -139%;
-    right: -68%;
+    top: -40%;
+    right: -17%;
     width: 1371px;
     height: 1037px;
     z-index: 1;
     background-image: url("../img/herobg-phones.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-position: calc(50% + 0px) calc(50% + 0px); */
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .why-section{
     padding: 96px 0 94px 0;
     background-color: #F4F5F7;
